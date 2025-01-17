@@ -76,7 +76,35 @@
 }
 
 /* @media */
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 320px) and (max-width: 390px) {
+  .login .container .row .left-side-image {
+    display: none;
+  }
+  .container {
+    width: calc(100% - 100px);
+  }
+  .login .container .row .right-side {
+    width: 250px;
+  }
+  .login .container .row .right-side form {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .login .container .row .right-side form .social-media .row {
+    width: 80%;
+  }
+  .login .container .row .right-side form .social-media .row button {
+    width: 240px;
+  }
+  .login .container .row .right-side form input {
+    width: 200px;
+  }
+  a.account {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 495px) {
   .login .container .row .left-side-image {
     display: none;
   }
@@ -99,8 +127,7 @@
     width: 250px;
   }
 }
-
-@media only screen and (min-width: 401px) and (max-width: 719px) {
+@media only screen and (min-width: 496px) and (max-width: 719px) {
   .login .container .row .left-side-image {
     display: none;
   }
@@ -160,16 +187,13 @@
   .login .container .row .left-side-image {
     width: 35%;
   }
-
-  
 }
 
 @media only screen and (min-width: 1400px) {
- 
   .login .container .row .right-side {
     width: 55%;
   }
- .login .container .row .right-side form {
+  .login .container .row .right-side form {
     width: 560px;
   }
 
