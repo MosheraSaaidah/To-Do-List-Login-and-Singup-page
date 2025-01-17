@@ -76,7 +76,31 @@
 }
 
 /* @media */
-@media only screen and (max-width: 719px) {
+@media only screen and (max-width: 400px) {
+  .login .container .row .left-side-image {
+    display: none;
+  }
+  .container {
+    width: calc(100% - 100px);
+  }
+  .login .container .row .right-side {
+    width: 323px;
+  }
+  .login .container .row .right-side form {
+    width: 100%;
+  }
+  .login .container .row .right-side form .social-media .row {
+    width: 80%;
+  }
+  .login .container .row .right-side form .social-media .row button {
+    width: 240px;
+  }
+  .login .container .row .right-side form input {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 719px) {
   .login .container .row .left-side-image {
     display: none;
   }
