@@ -9,10 +9,11 @@
     <link rel="icon" href="./assets/img/title-icon.png">
     <title>TO-DO-List Sing Up </title>
 </head>
+
 <body>
     <div class="login">
         <div class="container">
-            <div class="row"> 
+            <div class="row">
                 <div class="left-side-image">
                     <img src="./assets/img/login.jpg" alt="to-do-list-image desktop login-page">
                 </div>
@@ -21,13 +22,13 @@
 
                     <form method="post">
                         <div class="social-media">
-                              <div class="row">
-                            <button> <img src="./assets/img/facebook.svg" alt="facebook">
-                                <a href="https://www.facebook.com/">Continue with Facebook</a></button>
+                            <div class="row">
+                                <button> <img src="./assets/img/facebook.svg" alt="facebook">
+                                    <a href="https://www.facebook.com/">Continue with Facebook</a></button>
                             </div>
 
                             <div class="row">
-                                <button><img src="./assets/img/google.svg" alt="google" >
+                                <button><img src="./assets/img/google.svg" alt="google">
                                     <a href="https://myaccount.google.com/email/">Continue with Google</a></button>
                             </div>
 
@@ -36,18 +37,35 @@
                                     <a href="https://www.apple.com/">Continue with Apple</a></button>
                             </div>
                         </div>
+                        <div class="box">
+                            <label for="name">Name </label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name..."><br>
+                        </div>
+                        <div class="box">
+                            <label for="mail">Email </label>
+                            <input type="email" id="mail" name="name" required placeholder="Your Emaile ..."><br>
 
-                        <input type="text" name="name" required placeholder="Your Name..."><br>
-                        <input type="email" name="email" required placeholder="Your Emaile ..."><br>
-                        <input type="password" name="password" required placeholder="Your Password ..."> <br>
-                        <input type="password" name="password" required placeholder="Confirm Your Password ..."> <br>
-                        <input type="submit" value="Sing Up"> <br>
-                        <a href="index.html" class="account">Have Account?</a>
-                    </form>
-                </div>
-               
+                        </div>
+                        <div class="box">
+                            <label for="pass">Password </label>
+                            <input type="password" id="pass" name="password" required placeholder="Your Password ...">
+                            <br>
+                        </div>
+                        <div class="box">
+                            <label for="confirm">Confirm Password </label>
+                            <input type="password" id="confirm" name="password" required placeholder="Confirm Your Password ...">
+                            <br>
+                        </div>
+
+
+                <input type="submit" value="Sing Up"> <br>
+                <a href="index.html" class="account">Have Account?</a>
+                </form>
             </div>
+
         </div>
     </div>
+    </div>
 </body>
+
 </html>
